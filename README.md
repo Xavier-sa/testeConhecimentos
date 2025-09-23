@@ -38,8 +38,8 @@ O objetivo deste projeto é fornecer um ambiente estruturado onde cada membro po
 
 ### 1. Clone o repositório
 ```bash
-git clone (https://github.com/Xavier-sa/testeConhecimentos.git)
-cd repositorio-python-pratica
+git clone https://github.com/Xavier-sa/testeConhecimentos.git
+cd testeConhecimentos
 ```
 
 ### 2. Crie sua branch pessoal
@@ -154,3 +154,4 @@ Cada membro pode acompanhar seu progresso usando a checklist nos exercícios e m
 
 
 Happy coding! 🎉
+
