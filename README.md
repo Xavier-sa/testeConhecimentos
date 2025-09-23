@@ -38,7 +38,7 @@ O objetivo deste projeto é fornecer um ambiente estruturado onde cada membro po
 
 ### 1. Clone o repositório
 ```bash
-git clone <url-do-repositorio>
+git clone (https://github.com/Xavier-sa/testeConhecimentos.git)
 cd repositorio-python-pratica
 ```
 
@@ -151,5 +151,6 @@ Cada membro pode acompanhar seu progresso usando a checklist nos exercícios e m
 ---
 
 **Lembre-se:** O objetivo não é apenas resolver os exercícios, mas aprender e melhorar suas habilidades de programação. Não hesite em experimentar, errar e aprender!
+
 
 Happy coding! 🎉
