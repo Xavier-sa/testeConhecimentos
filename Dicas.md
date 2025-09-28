@@ -1,0 +1,1 @@
+:q! - aborta merge
