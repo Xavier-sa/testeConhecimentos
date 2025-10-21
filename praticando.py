@@ -31,3 +31,12 @@ def emprestimo(estado, valor, juros=0.02):
     estado['patrimonio'] += valor
     estado['historico'].append(f"Empréstimo: +R${valor:.2f}, dívida aumentou para R${estado['dividas']:.2f}")
     print("Empréstimo concedido.")
+    
+    
+    
+def financiamento(estado, valor, juros=0.015):
+    print(f"Financiando bem no valor de R${valor:.2f} com juros de {juros*100:.1f}%")
+    estado['dividas'] += valor * (1 + juros)
+    estado['patrimonio'] += valor
+    estado['historico'].append(f"Financiamento: +R${valor:.2f}, dívida aumentou para R${estado['dividas']:.2f}")
+    print("Financiamento aprovado.")
