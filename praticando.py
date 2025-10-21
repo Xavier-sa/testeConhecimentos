@@ -62,3 +62,16 @@ def elevacao_patrimonio(estado, valor):
     print(f"Aumentando patrimônio em R${valor:.2f}")
     estado['patrimonio'] += valor
     estado['historico'].append(f"Aumento patrimônio: +R${valor:.2f}")
+    
+def exibir_situacao_financeira(estado):
+    print("\n----- Situação Financeira -----")
+    print(f"Nome: {estado['nome']}")
+    print(f"Idade: {estado['idade']}")
+    print(f"Profissão: {estado['profissao']}")
+    print(f"Salário mensal: R${estado['salario']:.2f}")
+    print(f"Patrimônio atual: R${estado['patrimonio']:.2f}")
+    print(f"Dívidas atuais: R${estado['dividas']:.2f}")
+    print("Histórico:")
+    for evento in estado['historico']:
+        print(" -", evento)
+    print("------------------------------\n")
