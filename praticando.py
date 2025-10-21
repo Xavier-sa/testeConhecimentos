@@ -25,5 +25,9 @@ Sua Ocupação é {profissao} {'-'*20}
 Possui um salario de {salario}
 """)
 
-if __name__ == "__main__":
-    coletar_dados()
+def emprestimo(estado, valor, juros=0.02):
+    print(f"Solicitando empréstimo de R${valor:.2f} com juros de {juros*100:.1f}%")
+    estado['dividas'] += valor * (1 + juros)
+    estado['patrimonio'] += valor
+    estado['historico'].append(f"Empréstimo: +R${valor:.2f}, dívida aumentou para R${estado['dividas']:.2f}")
+    print("Empréstimo concedido.")
