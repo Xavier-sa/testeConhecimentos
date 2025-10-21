@@ -26,13 +26,14 @@ O objetivo deste projeto é fornecer um ambiente estruturado onde cada membro po
 
 ## 👥 Membros da Equipe
 
-| Nome | GitHub | Branch |
-|------|--------|--------|
-| Wendril | [@WendrilSFS](https://github.com/WendrilSFS) | `wendril-exercicios` |
-| Xavier | [@Xavier-sa](https://github.com/Xavier-sa) | `xavier-testeXavier-feature/01` |
-| Matheus | [@matheuscorsine](https://github.com/matheuscorsine) | `matheus-exercicios` |
-| Rodrigo | [@rodrigo570282](https://github.com/rodrigo570282) | `rodrigo-exercicios` |
-| Samuel | [@samuelserri](https://github.com/samuelserri) | `samuel-exercicios` |
+| Nome    |                    GitHub                    |          Branch               |
+|---------|----------------------------------------------|-------------------------------|
+| Wendril | [@WendrilSFS](https://github.com/WendrilSFS) | `wendril-exercicios`          |
+| Xavier  | [@Xavier-sa](https://github.com/Xavier-sa) | `xavier-testeXavier-feature/01` |
+| Matheus | [@matheuscorsine](https://github.com/matheuscorsine) | `matheus-exercicios`  |
+| Rodrigo | [@rodrigo570282](https://github.com/rodrigo570282) | `rodrigo-exercicios`    |
+| Samuel  | [@samuelserri](https://github.com/samuelserri) | `samuel-exercicios`         |
+| Bruno   | [@brunoDevfull](https://github.com/brunoDevfull)) | `testeBruno-feature/02`  |
 
 ## 🚀 Como Começar
 
@@ -154,4 +155,5 @@ Cada membro pode acompanhar seu progresso usando a checklist nos exercícios e m
 
 
 Happy coding! 🎉
+
 
