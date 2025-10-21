@@ -57,3 +57,8 @@ def alienacao(estado, valor):
     else:
         estado['historico'].append(f"Alienação: vendeu R${valor:.2f}, sem dívidas para pagar")
     print("Alienação realizada.")
+    
+def elevacao_patrimonio(estado, valor):
+    print(f"Aumentando patrimônio em R${valor:.2f}")
+    estado['patrimonio'] += valor
+    estado['historico'].append(f"Aumento patrimônio: +R${valor:.2f}")
