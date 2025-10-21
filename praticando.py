@@ -40,3 +40,20 @@ def financiamento(estado, valor, juros=0.015):
     estado['patrimonio'] += valor
     estado['historico'].append(f"Financiamento: +R${valor:.2f}, dívida aumentou para R${estado['dividas']:.2f}")
     print("Financiamento aprovado.")
+    
+    
+def alienacao(estado, valor):
+    print(f"Alienando bem no valor de R${valor:.2f}")
+    if valor > estado['patrimonio']:
+        print("Não é possível alienar valor maior que o patrimônio atual.")
+        return
+    estado['patrimonio'] -= valor
+    # Usar o dinheiro para pagar dívidas, se houver
+    if estado['dividas'] > 0:
+        pago = min(valor, estado['dividas'])
+        estado['dividas'] -= pago
+        estado['historico'].append(f"Alienação: vendeu R${valor:.2f}, pagou dívidas R${pago:.2f}")
+        print(f"Dívidas reduzidas em R${pago:.2f}")
+    else:
+        estado['historico'].append(f"Alienação: vendeu R${valor:.2f}, sem dívidas para pagar")
+    print("Alienação realizada.")
