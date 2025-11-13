@@ -1,4 +1,7 @@
----
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
+</p>
+
 
 ````markdown
 <p align="center">
@@ -58,12 +61,11 @@ git pull origin main
 
 ---
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
-</p>
+
 
 > **Dica:** Use este repositório como referência e aprendizado. Colabore, revise e aprenda com o código dos colegas! 🚀
 
 ```
+
 
 
