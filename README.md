@@ -1,3 +1,4 @@
+```
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
 </p>
@@ -65,7 +66,8 @@ git pull origin main
 
 > **Dica:** Use este repositório como referência e aprendizado. Colabore, revise e aprenda com o código dos colegas! 🚀
 
-```
+
+
 
 
 
