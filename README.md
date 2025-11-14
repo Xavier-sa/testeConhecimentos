@@ -3,8 +3,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
 </p>
 
-
-````markdown
+
 <p align="center">
   <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200"/>
 </p>
