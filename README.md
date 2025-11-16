@@ -1,14 +1,16 @@
 
+
+# Repositório de Prática em Python 🐍
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
 </p>
 
-
-<p align="center">
-  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200"/>
-</p>
 
-# Repositório de Prática em Python 🐍
+
+<!-- <p align="center">
+  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200"/>
+</p> -->
+
 
 Este repositório foi criado para que os membros do time possam **praticar e compartilhar soluções** para exercícios de Python. Cada membro deve criar uma **branch separada** para desenvolver seus exercícios e enviar suas soluções de forma organizada.
 
