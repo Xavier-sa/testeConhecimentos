@@ -4,6 +4,9 @@
 🌎 Read in: [Português](README.md) | **English**
 
 # 🐍 Python Practice Repository
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="140"/>
+</p>
 
 This repository was created for people who are **learning Python** and want to practice in a simple, pressure-free way.
 
