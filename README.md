@@ -27,7 +27,7 @@ Se já tem experiência, pode ajudar quem está começando.
 ## 📂 Organização do Repositório
 
 Estrutura simples e objetiva:
-
+```
 ├── exercicios/ # Exercícios propostos
 ├── solucoes/ # Soluções organizadas por participante
 │ ├── xavier/
@@ -36,6 +36,7 @@ Estrutura simples e objetiva:
 ├── recursos/ # Materiais de apoio
 ├── README.md # Português
 └── README.en.md # English
+```
 
 Nada complicado. Nada escondido.
 
