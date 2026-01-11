@@ -1,75 +1,132 @@
+🌎 Leia em: **Português** | [English](README.en.md)
 
+# 🐍 Repositório de Prática em Python
 
-# Repositório de Prática em Python 🐍
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" width="150"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="140"/>
 </p>
 
+Este repositório é voltado para **quem está aprendendo Python** e quer praticar de forma simples, sem pressão e sem medo de errar.
 
+Aqui não buscamos código perfeito.  
+Buscamos **aprendizado real**, feito por pessoas reais.
 
-<!-- <p align="center">
-  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo" width="200"/>
-</p> -->
+---
 
+## 🎯 Objetivo do Projeto
 
-Este repositório foi criado para que os membros do time possam **praticar e compartilhar soluções** para exercícios de Python. Cada membro deve criar uma **branch separada** para desenvolver seus exercícios e enviar suas soluções de forma organizada.
+- Praticar Python do básico ao avançado  
+- Aprender Git e GitHub na prática  
+- Criar um ambiente colaborativo e acolhedor para iniciantes  
+
+Se você está começando, **este espaço é para você**.  
+Se já tem experiência, pode ajudar quem está começando.
 
 ---
 
 ## 📂 Organização do Repositório
 
-- **Branches:** Cada membro deve criar uma branch com seu **nome ou identificador único** para manter o código organizado e evitar conflitos.  
-- **Lista de Exercícios:** A lista de exercícios será disponibilizada em breve. À medida que forem adicionados, os exercícios serão organizados em arquivos separados ou pastas, conforme necessário.
+Estrutura simples e objetiva:
+
+├── exercicios/ # Exercícios propostos
+├── solucoes/ # Soluções organizadas por participante
+│ ├── xavier/
+│ ├── samuel/
+│ └── outros/
+├── recursos/ # Materiais de apoio
+├── README.md # Português
+└── README.en.md # English
+
+Nada complicado. Nada escondido.
 
 ---
 
-## 📌 Regras para Colaboração
+## 👥 Como Contribuir
 
-### 1️⃣ Crie sua própria branch
-Antes de começar a trabalhar nos exercícios, crie uma branch separada com seu nome ou identificador.  
-Isso mantém o código de cada pessoa **isolado** e facilita a colaboração.
+Cada participante trabalha **em sua própria branch**.
 
-**Comando para criar uma branch:**
+### 1️⃣ Criar sua branch
 ```bash
-git checkout -b nome-da-sua-branch
-````
+git checkout -b seu-nome-exercicios
+```
+Exemplo:
+```
+git checkout -b xavier-exercicios
+```
+### 2️⃣ Criar sua pasta de soluções
+```
+mkdir solucoes/seu-nome
+```
+Coloque ali seus arquivos .py.
 
-**Enviar alterações para o repositório remoto:**
-
-```bash
+### 3️⃣ Commit e push
+```
 git add .
-git commit -m "Descrição das alterações"
-git push origin nome-da-sua-branch
+git commit -m "feat: solução do exercício X"
+git push origin seu-nome-exercicios
 ```
 
-### 2️⃣ Faça Pull Requests
+### 4️⃣ Pull Request (opcional)
 
-* Quando concluir um exercício, abra um **Pull Request** para a branch principal (`main`).
-* Inclua uma **descrição clara** do que foi feito.
-* Aguarde revisão do time antes de merge.
+Abra um Pull Request para a main quando quiser feedback ou compartilhar seu progresso.
+
+Não é competição.
+É aprendizado.
+
+---
+### 🧠 Boas Práticas
+
+✔ Código simples e legível
+✔ Comentários explicando o que está aprendendo
+✔ PEP 8 quando possível
+
+❌ Sem medo de errar
+❌ Sem comparação com outras pessoas
 
 ---
 
-### 3️⃣ Boas práticas de código
+### 📚 Exercícios
 
-* Siga a **PEP 8** (convenções de Python).
-* Nomes de variáveis em **snake_case**.
-* Funções e classes documentadas com **docstrings**.
-* Evite conflitos mantendo sempre sua branch atualizada:
+### Iniciante
 
-```bash
-git pull origin main
+-  Variáveis e tipos
+
+-  if / else
+
+-  for / while
+
+- Funções
+
+### Intermediário
+
+-  Listas e dicionários
+
+-  Strings
+
+-  Arquivos
+
+-  Projetos simples
+
+### Avançado
+
+-  APIs
+
+-  Flask
+
+-  Banco de dados
+
+-  Automação
+
+### Sem pressa. Cada um no seu ritmo.
+
+
+⭐ Este repositório te ajudou?
+
+```Se este repositório foi útil pra você:
+
+- Deixe uma ⭐  
+- Compartilhe com algum amigo que esteja aprendendo Python  
+
+Isso ajuda o projeto a chegar em mais pessoas iniciantes 
 ```
-
----
-
-
-
-> **Dica:** Use este repositório como referência e aprendizado. Colabore, revise e aprenda com o código dos colegas! 🚀
-
-
-
-
-
-
 
