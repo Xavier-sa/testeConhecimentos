@@ -57,5 +57,76 @@ git checkout -b xavier-exercicios
 ```
 mkdir solucoes/seu-nome
 ```
+Coloque ali seus arquivos .py.
 
+### 3️⃣ Commit e push
+```
+git add .
+git commit -m "feat: solução do exercício X"
+git push origin seu-nome-exercicios
+```
+
+### 4️⃣ Pull Request (opcional)
+
+Abra um Pull Request para a main quando quiser feedback ou compartilhar seu progresso.
+
+Não é competição.
+É aprendizado.
+
+---
+### 🧠 Boas Práticas
+
+✔ Código simples e legível
+✔ Comentários explicando o que está aprendendo
+✔ PEP 8 quando possível
+
+❌ Sem medo de errar
+❌ Sem comparação com outras pessoas
+
+---
+
+### 📚 Exercícios
+
+### Iniciante
+
+-  Variáveis e tipos
+
+-  if / else
+
+-  for / while
+
+- Funções
+
+### Intermediário
+
+-  Listas e dicionários
+
+-  Strings
+
+-  Arquivos
+
+-  Projetos simples
+
+### Avançado
+
+-  APIs
+
+-  Flask
+
+-  Banco de dados
+
+-  Automação
+
+### Sem pressa. Cada um no seu ritmo.
+
+
+⭐ Este repositório te ajudou?
+
+```Se este repositório foi útil pra você:
+
+- Deixe uma ⭐  
+- Compartilhe com algum amigo que esteja aprendendo Python  
+
+Isso ajuda o projeto a chegar em mais pessoas iniciantes 
+```
 
