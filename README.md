@@ -131,4 +131,3 @@ Não é competição.
 Isso ajuda o projeto a chegar em mais pessoas iniciantes 
 ```
 
-teste
