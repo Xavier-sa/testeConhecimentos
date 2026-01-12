@@ -19,3 +19,5 @@ multiplicacao = numero1 * numero2
 divisao = numero1 / numero2
 print(f"o primeiro numero é : {numero1}")
 print(f"o segundo numero é : {numero2}")
+
+print(f"""\t{'-'*10}Lista Operações{'-'*10}\nSoma de {numero1} + {numero2} = {soma}\nSubtração de {numero1} - {numero2} = {subtracao}\nMultiplicacao de {numero1} * {numero2} = {multiplicacao}\nDivisao de {numero1}/{numero2} = {divisao}""")
