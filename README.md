@@ -32,6 +32,9 @@ Estrutura simples e objetiva:
 ├── solucoes/ # Soluções organizadas por participante
 │ ├── xavier/
 │ ├── samuel/
+│ ├── bruno/
+│ ├── rodrigo/
+│ ├── matheus/
 │ └── outros/
 ├── recursos/ # Materiais de apoio
 ├── README.md # Português
