@@ -8,10 +8,15 @@ Informe se o número é par ou ímpar.
 # Dica: use o operador %
 
 
-stringNumero = "Informe o numero:"
-numero = int(input(stringNumero))
+while True:
+    stringNumero = "Informe o número (ou 0 para sair): "
+    numero = int(input(stringNumero))
 
-if numero % 2 == 0:
-    print("É PAR")
-else:
-    print("É ÍMPAR")
+    if numero == 0:
+        print("Programa encerrado.")
+        break
+
+    if numero % 2 == 0:
+        print("É PAR")
+    else:
+        print("É ÍMPAR")
