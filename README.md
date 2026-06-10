@@ -37,6 +37,7 @@ Estrutura simples e objetiva:
 │ ├── matheus/
 │ └── outros/
 ├── recursos/ # Materiais de apoio
+│ └── git-para-iniciantes.md # Guia inicial de Git, GitHub e Python
 ├── README.md # Português
 └── README.en.md # English
 ```
@@ -90,6 +91,10 @@ Não é competição.
 ---
 
 ### 📚 Exercícios
+
+Para quem ainda está começando com terminal, Git e GitHub, veja também:
+
+- [Primeiro contato com Git, GitHub e Python](recursos/git-para-iniciantes.md)
 
 ### Iniciante
 
