@@ -26,6 +26,12 @@ Use como referência sempre que algo não fizer sentido.
 
 ---
 
+## 🧭 Guias do repositório
+
+- [Primeiro contato com Git, GitHub e Python](git-para-iniciantes.md): passo a passo para criar um primeiro projeto Python, salvar com Git e enviar para o GitHub.
+
+---
+
 ## 🧠 Conselhos importantes para quem está aprendendo
 
 Pesquisar faz parte do aprendizado.
