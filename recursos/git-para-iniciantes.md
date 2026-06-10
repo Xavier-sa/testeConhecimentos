@@ -2,7 +2,7 @@
 
 <!--
   Objetivo deste arquivo:
-  Servir como um passo a passo simples para uma pessoa iniciante entender:
+  Servir como um passo a passo simples para ajudar quem está começando a entender:
   1. O que é Git.
   2. O que é GitHub.
   3. Como criar um repositório.
@@ -14,7 +14,7 @@
 
 | Item | Descrição |
 | --- | --- |
-| Público-alvo | Pessoa iniciante em programação |
+| Público-alvo | Quem está começando em programação |
 | Objetivo | Criar um primeiro projeto Python e enviar para o GitHub |
 | Dificuldade | Básica |
 | Tempo estimado | 40 a 60 minutos |
@@ -25,7 +25,7 @@
 ## Legenda do Guia
 
 - `Execute`: etapa prática para fazer no computador.
-- `Comentário`: orientação para quem está ensinando.
+- `Dica de ensino`: orientação para quem está ensinando.
 - `Atenção`: cuidado importante antes de seguir.
 - `Erro comum`: problema frequente que deve ser evitado.
 
@@ -42,7 +42,7 @@ Você vai precisar de:
 - Um editor de código, como Visual Studio Code.
 
 > [!NOTE]
-> Comentário: se a pessoa estiver começando agora, não misture muitos assuntos no primeiro dia. O foco é entender o caminho básico: computador, Git, GitHub.
+> Dica de ensino: se você estiver guiando alguém no primeiro contato, não misture muitos assuntos no mesmo dia. O foco é entender o caminho básico: computador, Git, GitHub.
 
 ---
 
@@ -73,7 +73,7 @@ GitHub é um site onde você guarda repositórios Git na nuvem.
 | Commit | Um ponto salvo no histórico |
 
 > [!NOTE]
-> Comentário: explique primeiro com analogias. Depois mostre os comandos. Para iniciante, conceito antes de terminal costuma funcionar melhor.
+> Dica de ensino: comece pelas analogias e depois mostre os comandos. Para quem está começando, entender o conceito antes do terminal costuma funcionar melhor.
 
 ---
 
@@ -108,13 +108,13 @@ aprendendo-python
 
 ### O que é um repositório?
 
-Um repositório é a pasta principal do projeto. Tudo que a pessoa desenvolver ficará organizado ali.
+Um repositório é a pasta principal do projeto. Tudo que você desenvolver ficará organizado ali.
 
 > [!IMPORTANT]
 > Neste primeiro contato, criar o repositório vazio evita conflitos quando o projeto local for enviado para o GitHub.
 
 > [!NOTE]
-> Comentário: neste momento, não precisa explicar branch, merge ou pull request. Primeiro deixe a pessoa confortável com repositório e commit.
+> Dica de ensino: neste momento, não precisa explicar branch, merge ou pull request. Primeiro ajude quem está aprendendo a ficar confortável com repositório e commit.
 
 ---
 
@@ -189,7 +189,7 @@ nome = input("Digite seu nome: ")
 print(f"Olá, {nome}!")
 ```
 
-### Explicação para iniciante
+### Explicação simples
 
 No Python, você não precisa declarar o tipo da variável como em C, Java ou C#.
 
@@ -210,7 +210,7 @@ nome = "Ana"
 O Python identifica automaticamente que `nome` é um texto.
 
 > [!NOTE]
-> Comentário: este é um bom momento para explicar entrada, processamento e saída. O usuário digita o nome, o programa guarda na variável e depois imprime uma mensagem.
+> Dica de ensino: este é um bom momento para explicar entrada, processamento e saída. Você digita o nome, o programa guarda na variável e depois imprime uma mensagem.
 
 ---
 
@@ -294,7 +294,7 @@ git push -u origin main
 ```
 
 > [!CAUTION]
-> Erro comum: não copie o exemplo exatamente como está. Troque `seu-usuario` pelo usuário real do GitHub.
+> Erro comum: não copie o exemplo exatamente como está. Troque `seu-usuario` pelo seu nome de usuário real do GitHub.
 
 ---
 
@@ -305,11 +305,11 @@ Volte ao repositório no GitHub e atualize a página.
 Você deve ver:
 
 - O arquivo `main.py`.
-- O arquivo `README.md`, se ele foi criado.
+- O arquivo `README.md`, caso você tenha criado esse arquivo.
 - O histórico com o commit `Primeiro commit`.
 
 > [!TIP]
-> Concluído: neste ponto, a pessoa já criou um projeto Python, salvou com Git e enviou para o GitHub.
+> Concluído: neste ponto, você já criou um projeto Python, salvou com Git e enviou para o GitHub.
 
 ---
 
@@ -341,7 +341,7 @@ Evite explicar estes assuntos logo no início:
 - Deploy.
 
 > [!WARNING]
-> Comentário: esses assuntos são importantes, mas podem confundir quem ainda está entendendo arquivo, pasta, terminal, Git e GitHub.
+> Dica de ensino: esses assuntos são importantes, mas podem confundir quem ainda está entendendo arquivo, pasta, terminal, Git e GitHub.
 
 ---
 
@@ -362,4 +362,4 @@ git commit -m "Mensagem do commit"
 git push
 ```
 
-Quando a pessoa entender essa rotina, ela já terá uma base sólida para continuar aprendendo Git, GitHub e programação.
+Quando você entender essa rotina, já terá uma base sólida para continuar aprendendo Git, GitHub e programação.
