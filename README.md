@@ -94,6 +94,7 @@ Não é competição.
 
 Para quem ainda está começando com terminal, Git e GitHub, veja também:
 
+- [Lógica de programação e algoritmos](recursos/logica-de-programacao-e-algoritmos.md)
 - [Primeiro contato com Git, GitHub e Python](recursos/git-para-iniciantes.md)
 
 ### Iniciante

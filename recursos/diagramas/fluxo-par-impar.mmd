@@ -1,0 +1,9 @@
+%% Diagrama: algoritmo para identificar número par ou ímpar
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#4f46e5', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3730a3', 'lineColor': '#94a3b8', 'secondaryColor': '#10b981', 'tertiaryColor': '#f59e0b', 'background': '#ffffff', 'mainBkg': '#f8fafc', 'nodeBorder': '#cbd5e1', 'clusterBkg': '#f1f5f9', 'clusterBorder': '#e2e8f0', 'titleColor': '#1e293b', 'edgeLabelBackground': '#ffffff', 'textColor': '#334155'}}}%%
+flowchart TD
+    inicio([Início]) --> entrada[/Ler um número/]
+    entrada --> decisao{O resto da divisão<br/>por 2 é zero?}
+    decisao -->|Sim| par[Mostrar: o número é par]
+    decisao -->|Não| impar[Mostrar: o número é ímpar]
+    par --> fim([Fim])
+    impar --> fim

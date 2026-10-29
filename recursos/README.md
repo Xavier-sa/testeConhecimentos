@@ -28,6 +28,8 @@ Use como referência sempre que algo não fizer sentido.
 
 ## 🧭 Guias do repositório
 
+- [Lógica de programação e algoritmos](logica-de-programacao-e-algoritmos.md):
+  conceitos básicos, pseudocódigo, fluxograma e exemplos em Python.
 - [Primeiro contato com Git, GitHub e Python](git-para-iniciantes.md): passo a passo para criar um primeiro projeto Python, salvar com Git e enviar para o GitHub.
 
 ---
